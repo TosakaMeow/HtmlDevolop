@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="60"><!-- Every 60sec refresh the page!-->
+  <meta name="author" content="王昊">
+  <title>QDUVioProject</title>
+  <link rel="shotcut" href="HtmlImage/logo.png">
+  <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+<div style="text-align: center">
+  <img src="HtmlImage/logo.png" width="100px" height="85px" alt="LOGO" >
+  <h2 style="text-align: center">QDUVioWork Project!</h2>
+</div>
+<hr>
+<table>
+  <tr><td height="10px"></td></tr>
+  <tr style="font-size: 30px; text-align: center">
+    <td width="320px"><a href="index.html" style="text-align: right;font-size: 30px">首页</a></td>
+    <td width="320px"><a href="Chilren_Html/ProjectIntroduce.html" >项目简介</a></td>
+    <td width="320px"><a href="Chilren_Html/Devoloper_Introduce.html" >人员简介</a></td>
+    <td width="320px"><a href="Chilren_Html/ProjectHistory.html" >开发历程</a></td>
+    <td width="320px"><a href="Chilren_Html/ProjectHistory.html" >联系我们</a></td>
+    <td width="320px"><a href="//https://github.com/VioletLing/HtmlDevolop" >开源社区</a></td>
+  </tr>
+</table>
+<div style="text-align:center;clear:both;position:absolute;top:0;left:260px">
+<script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
+<script src="/follow.js" type="text/javascript"></script>
+</div>
+<canvas class="canvas"></canvas>
+
+<div class="help" style="width: 50px">登录</div>
+
+<div class="ui">
+  <span class="ui-input" type="text"></span>
+  <span class="ui-return">↵</span>
+</div>
+
+<div class="overlay">
+  <div class="tabs">
+    <div class="tabs-labels"><span class="tabs-label">注册</span><span class="tabs-label">登录</span></div>
+
+    <div class="tabs-panels" style="text-align: center">
+      <ul class="tabs-panel commands">
+        <li class="commands-item">
+        <form action="dataOperate/AccPw.php" method="post">
+          昵称: <input type="text" name="name"><br>
+          账号: <input type="text" name="Account"><br>
+          密码: <input type="password" name="PassWord"><br>
+          邮箱: <input type="email" name="userEmail"><br>
+          <input type="submit" value="注册">
+          <input type="reset" value="重置">
+        </li>
+      </ul>
+
+      <div class="tabs-panel ui-details">
+        <div class="ui-details-content" style="text-align: center">
+          <h2 style="text-align: center">Welcome to QDUVioWork</h2>
+          <form action="dataOperate/AccPw.php" method="post">
+            账号:<input type="text" name="Account"><br>
+            密码:<input type="password" name="PassWord"><br>
+            <input type="submit" value="登录" style="text-align: center;width: 80px;height: 30px">
+            <button type="button" onclick="window.open('Chilren_Html/ProjectHistory.html')"  value="Resign"style="text-align: center;width: 80px;height: 30px">找回密码</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer" style="text-align: center">
+  Copyright ©Qduviowork.cn 2018-2019
+</div>
+<script src="js/index.js"></script>
+</body>
+</html>
